@@ -12,8 +12,8 @@ export default function Component() {
   }
   return (
     <>
-      Not signed in &nbsp;&nbsp;
-      <button onClick={() => signIn("github")}>Sign in</button>
+     &nbsp;&nbsp;
+      <button className="btn btn-primary" onClick={() => signIn("github")}>Sign in</button>
     </>
   );
 }
